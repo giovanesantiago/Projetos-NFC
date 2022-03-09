@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+*{
+    margin: 0; border: 0;
+}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    
+}
+main{
+    margin: 10px 0px 20px 0px;
+    
+}
+.logo{
+    border-radius: 50%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    height: 100%;    
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #132d47;
+    background-color: rgba(255, 255, 255, 0.548);
+    
+
+}
+.txt {
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+    font-weight: 700;
+}
+.fundo{
+    background-image: url("/img/fundo.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    z-index: -1000;
+}
+
+.tudo{
+    z-index: 1000;
+}
+
+header{
+    padding-top: 20px;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.dev{
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-style: normal;
+    margin-bottom: 20px;
+    bottom:0;
+    width:100%;
+}
+
+a{
+   color: black !important;
+}
+strong{
+    font-size: 0.8em;
+    font-weight: 300;
+    
+}
+.redes{
+    margin-top: 20px;
+}
+.redes a {
+    margin-left: 10px;
+    
+}
+.redes img{
+    width: 30px;
+    opacity: 80%;
+}
+form{
+    text-align: center;
+}
+button { 
+    margin-left: 10px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: #2e3c4b;
+    border: transparent;
+}
+.final{
+    margin-top: 30px;
+}
