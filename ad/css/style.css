@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-body {
+.fundo {
     background-image: url("/img/fundo2.jpg");
     background-attachment: fixed;
     background-size: cover;
@@ -79,4 +79,14 @@ a{
     width: 50px;
     margin-top: 4px;
     margin-bottom: 10px;
+}
+
+.dev{
+    margin-top: 70px;
+    text-align: center;
+    font-style: normal;
+    bottom:0;
+    width:100%;
+    color: white;
+    font-size: 0.8em;
 }
