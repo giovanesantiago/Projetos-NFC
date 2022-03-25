@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-.fundo {
+.container {
     background-image: url("/img/fundo2.jpg");
     background-attachment: fixed;
     background-size: cover;
