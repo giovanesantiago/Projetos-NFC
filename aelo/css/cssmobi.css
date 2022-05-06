@@ -1,0 +1,27 @@
+@media screen and (max-width: 500px){
+    
+    h1{
+        font-size: 1.8em;
+        margin-top: 10px;
+    }
+    .txt{
+        width: 95%;
+        
+    }
+    p{
+        margin: 10px 6px 5px 10px;
+    }
+    .container{
+        margin: 0;
+        display: flex;
+    }
+    button {
+        width: 210px;
+        font-size: 0.6em;
+        font-weight: 200;
+    }
+    .logo {
+        width: 100% !important;
+    }
+    
+}
