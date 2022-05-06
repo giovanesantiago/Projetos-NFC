@@ -15,7 +15,7 @@ main{
 .logo{
     border-radius: 40px;
     opacity: 70%;
-    width: 50%;
+    width: 70%;
 }
 .container {
     display: flex;
