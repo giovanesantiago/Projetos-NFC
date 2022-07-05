@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    /* background-image: url("../img/fundo.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+}
+.container {
+    margin: 20px;
+    opacity: 150% !important; 
+}
+
+header{
+    margin: auto;
+    text-align: center;
+}
+.logo{
+    margin: 30px 10px 10px 10px;
+    width: 60%;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+.container2{
+    display: flex;
+    height: 80%;
+
+}
+.button{
+    border-radius: 10px;
+    border: black;
+    width: 100%;
+    padding: 5px;
+    background-color: #8C7D61;
+    margin: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(66, 66, 66, 0.712);
+    
+}
+.container {
+    margin: 10px;
+}
+
+.ico {
+    width: 40px;
+    margin-top: 10px;
+}
+p {
+    color: white;
+    font-family: 'Mali', cursive;
+    
+}
+a{
+    text-decoration: none;
+}
+.insta {
+    width: 60px;
+    margin-top: 1px;
+}
+.uber {
+    border-radius: 50%;
+    width: 50px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.dev{
+    margin-top: 70px;
+    text-align: center;
+    font-style: normal;
+    bottom:0;
+    width:100%;
+    color: white;
+    font-size: 0.7em;
+}
