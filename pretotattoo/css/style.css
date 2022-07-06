@@ -9,15 +9,12 @@
 
 body {
     background-color: black;
-    /* background-image: url("../img/fundo.webp");
+    background-image: url("../img/fundo.webp");
     background-attachment: fixed;
-    background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; */
+    background-position: bottom;
+    background-size: 177px;
+
 }
 .container {
     margin: 20px;
@@ -30,16 +27,15 @@ header{
 }
 .logo{
     margin: 30px 10px 10px 10px;
-    width: 60%;
+    width: 40%;
 }
 
 .redes{
     display: flex;
     flex-direction: column;
-    width: 90%;
-    height: 90%;
+    width: 70%;
+    height: 50%;
     margin: auto;
-    margin-top: 40px;
     text-align: center;
 }
 .container2{
@@ -85,7 +81,7 @@ a{
 }
 
 .dev{
-    margin-top: 70px;
+    margin-top: 180px;
     text-align: center;
     font-style: normal;
     bottom:0;
